@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# local config (user-specific paths / language)
+config.json
+config_smoke.json
+config_sched.json
+config_demo.json
+
+# Nuitka build output
+dist_nuitka/
+build/
+*.build/
+*.dist/
+*.onefile-build/
+nuitka-crash-report.xml
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

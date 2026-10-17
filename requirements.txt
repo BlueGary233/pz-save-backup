@@ -1,0 +1,8 @@
+# PZ 存档备份工具 依赖
+
+# 运行本体只用到 Python 标准库（tkinter / zipfile / threading），无需额外依赖。
+
+# 编译成 exe 需要：
+nuitka>=2.0
+# 生成图标需要（可选，没有图标就用系统默认图标）：
+Pillow>=8.0
